@@ -6,9 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="scheduler.css">
-    <script src="scheduler.js"></script>
+    
 </head>
 <body>
-    
+    <div class="heading">
+        <h2>Meeting Scheduler</h2>
+    </div>
+    <div>
+        <label for="emp1">Employee 1</label>
+        <select id="emp1" required></select>
+        <label for="emp2">Employee 2</label>
+        <select id="emp2" required></select>
+        <label for="meeting">Meeting</label>
+        <select id="meeting" required></select>
+        <button type="submit" onclick="Submit()">Schedule Meeting</button>
+    </div>
+    <p id="msg"></p>
+    <script src="scheduler.js"></script>
 </body>
 </html>
